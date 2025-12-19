@@ -1,0 +1,13 @@
+.menu>a{
+    background-color: rgb(16, 16, 182);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    display: block;
+    width: 200px;
+    }
+    .menu>a:hover{
+        background-color: rgb(164, 23, 23); 
+        border: 0.5px dashed gray;
+    }

@@ -1,0 +1,22 @@
+.ao{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10%;
+    width: 200px;
+margin-top: 20px;
+}
+img{
+    width: 170px;
+    height: 150px;
+}
+.ten_ao{
+color: blue;
+font-size: 20px;
+}
+.gia{
+    color: red;
+}
+.ds_ao{
+    display: flex;
+    justify-content: space-around;
+}

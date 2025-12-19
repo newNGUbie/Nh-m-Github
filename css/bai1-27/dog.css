@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.slide-container {
+    position: relative;
+    width: 600px;   /* kích thước theo ý bạn */
+    height: 400px;
+    overflow: hidden;
+  }
+  
+ 
+  
+ 
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+#hinh {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease-in-out;
+  }
+  #hinh.fade-out {
+    opacity: 0;
+  }
+  
+/* NAVIGATION */
+/* NAVIGATION */
+nav {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 10;
+  }
+  
+  nav .logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #03751fb6;
+    margin-left: 60px; /* ✅ Dịch logo sang phải */
+  }
+  
+  nav div:last-child {
+    margin-right: 200px; /* ✅ Dịch cụm 4 liên kết sang trái */
+  }
+  
+  nav div a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #111111;
+    font-weight: 600;
+    transition: color 0.5s, text-decoration 0.5s;
+  }
+  
+  nav div a:hover {
+    color: #1e8609;
+  }
+  
+  nav a:hover {
+    color: orange;
+    text-decoration: underline; /* ✅ Thêm gạch chân khi hover */
+  }
+  
+
+/* NỘI DUNG CHỒNG LÊN ẢNH */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 58px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.buttons a {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.buttons .btn-primary {
+  background-color: white;
+  color: green;
+}
+
+.buttons .btn-primary:hover {
+  background-color: green;
+  color: white;
+  
+}
+
+.buttons .btn-secondary {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.buttons .btn-secondary:hover {
+  background-color: white;
+  color: black;
+}
+
+/* DẤU CHẤM SLIDER */
+.dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.dots span {
+  display: inline-block;
+  width: 30px;        /* Chiều dài gạch ngang */
+  height: 6px;        /* Chiều cao gạch */
+  margin: 0 6px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.dots .active {
+  background: #2ecc71; /* Màu xanh lá cây */
+  transform: scaleX(1.2); /* Tăng nhẹ chiều dài */
+}

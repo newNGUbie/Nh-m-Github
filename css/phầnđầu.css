@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  .search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
+  .category-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon-group span {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dropdowns select {
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .sub-nav {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sub-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0;
+    gap: 20px;
+  }
+  
+  .sub-nav li {
+    cursor: pointer;
+    font-size: 14px;
+  }
+  

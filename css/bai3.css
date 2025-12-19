@@ -1,0 +1,51 @@
+.bigbody{
+    border-color: red;
+    width: 100%;
+    text-align: center;
+}
+#body {
+    display: flex;
+   
+    width: 500px;
+   
+}
+#head{
+    background-color: blue;
+    width: 50%;
+}
+#menu{
+    background-color: yellow;
+    width: 500px;
+}
+#mid{
+    display: flex;
+    
+    width: 500px;
+}
+#end{
+    background-color: rgb(59, 19, 178);
+    width: 500px;
+}
+
+#logo{
+    float:left;
+    width: 50%;
+    background-color: aqua;
+
+}
+#left{
+    float:left;
+    width: 30%;
+    background-color: aqua;
+} 
+#right{
+    float:left;
+    width: 30%;
+    background-color: rgb(220, 199, 64);
+}
+#midside{
+    width: 40%;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: blueviolet;
+}
