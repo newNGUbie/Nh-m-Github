@@ -1,0 +1,22 @@
+.khoitren{
+    display: flex;
+    align-content: center;
+}
+img{
+    height: 110px;
+}
+.menu a:link {
+    font-variant: small-caps;
+    color: blue; /* Mặc định: xanh dương */
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: green; /* Khi đã click: xanh lá */
+}
+
+.menu a:hover {
+    color: red; /* Khi rê chuột: đỏ */
+    text-decoration: underline;
+}
+

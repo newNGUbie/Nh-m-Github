@@ -1,0 +1,76 @@
+.body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+#tuan {
+    display: flex;
+}
+
+#logo {
+    width: 30%;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#Navigation {
+    width: 70%;
+    background-color: limegreen;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#tuan1:nth-of-type(2) {
+    background-color: hotpink;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#tuan1:nth-of-type(3) {
+    background-color: steelblue;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#Box1 {
+    float: left;
+    width: 30%;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Box2 {
+    float: left;
+    width: 40%;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+}
+
+#Box3 {
+    float: right;
+    width: 30%;
+    background-color: rgb(220, 199, 64);
+    text-align: center;
+    color: white;
+}
+
+
+
+#tuan1:nth-of-type(5) {
+    height: 100px;
+    background-color: #3b3b3b;
+}

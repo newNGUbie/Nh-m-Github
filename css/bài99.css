@@ -1,0 +1,11 @@
+td,tr{
+    border: 2px solid rgb(18, 18, 127);
+    padding: 4px;
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(236, 230, 175);
+    color: #6699FF ;
+    width: 45%;
+
+}

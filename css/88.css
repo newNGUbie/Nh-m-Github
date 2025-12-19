@@ -1,0 +1,10 @@
+td,tr{
+    border: 2px solid black;
+    padding: 7px;
+}
+table{
+    border-collapse: collapse;
+    background-color: LightGreen;
+    color: green;
+    width: 45%;
+}

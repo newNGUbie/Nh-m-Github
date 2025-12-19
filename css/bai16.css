@@ -1,0 +1,74 @@
+.ngoisao{
+    display: flex;
+    align-items: center;
+}
+.ngoisao>span{
+    color: yellow;
+
+}
+.anh{
+    text-align: center;
+    position: relative;
+}
+.sale{
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+    
+}
+#Text-one{
+    opacity: 0.5;
+}
+#danhgia{
+    opacity: 0.5;
+}
+h2{
+        display: inline;
+}
+.daubai{
+    width: 300px;
+    padding: 20px;
+}
+.daubai:hover{
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+}
+#sotiencu{
+    opacity: 0.5;
+}
+.gia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#chuabutton>#button{
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    height: 30px;
+    width: 70px;
+}
+.hieuung{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    display: none;
+}
+.anh:hover>.hieuung{
+display: inline;
+}
+.anh:hover>.hieuung>button{
+    border: none;
+    margin: 10px;
+    width: 50px;
+    height: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
